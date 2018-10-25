@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{376C2A5B-C735-49EF-9334-58FEEB40133C}</ProjectGuid>
+    <ProjectGuid>{3A0800C3-8C54-4B30-BB9E-4AC23AA294AB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Creational_Abstract_Factory</RootNamespace>
-    <AssemblyName>Creational_Abstract-Factory</AssemblyName>
+    <RootNamespace>Creational_Factory_Project</RootNamespace>
+    <AssemblyName>Creational_Factory_Project</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,18 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractFactory.cs" />
-    <Compile Include="AbstractProductA.cs" />
-    <Compile Include="AbstractProductB.cs" />
-    <Compile Include="Client.cs" />
-    <Compile Include="ConcreteFactory1.cs" />
-    <Compile Include="ConcreteFactory2.cs" />
-    <Compile Include="ProductA1.cs" />
-    <Compile Include="ProductA2.cs" />
-    <Compile Include="ProductB1.cs" />
-    <Compile Include="ProductB2.cs" />
+    <Compile Include="DotNetPosition.cs" />
+    <Compile Include="Document.cs" />
+    <Compile Include="JavaScriptPosition.cs" />
+    <Compile Include="Position.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report.cs" />
+    <Compile Include="Resume.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{376C2A5B-C735-49EF-9334-58FEEB40133C}</ProjectGuid>
+    <ProjectGuid>{5B176674-B78C-446E-B5B9-771833C74F04}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Creational_Abstract_Factory</RootNamespace>
-    <AssemblyName>Creational_Abstract-Factory</AssemblyName>
+    <RootNamespace>Creational_Factory_Demo</RootNamespace>
+    <AssemblyName>Creational_Factory_Demo</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,16 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractFactory.cs" />
-    <Compile Include="AbstractProductA.cs" />
-    <Compile Include="AbstractProductB.cs" />
-    <Compile Include="Client.cs" />
-    <Compile Include="ConcreteFactory1.cs" />
-    <Compile Include="ConcreteFactory2.cs" />
-    <Compile Include="ProductA1.cs" />
-    <Compile Include="ProductA2.cs" />
-    <Compile Include="ProductB1.cs" />
-    <Compile Include="ProductB2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

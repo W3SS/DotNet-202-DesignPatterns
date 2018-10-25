@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Creational_Abstract_Factory
+namespace Creational_Abstract_Factory_Project
 {
     class Program
     {
@@ -12,13 +12,13 @@ namespace Creational_Abstract_Factory
         {
             // Abstract factory #1
 
-            AbstractFactory factory1 = new ConcreteFactory1();
+            AbstractFactoryFastFood factory1 = new ConcreteMcDonalds();
             Client client1 = new Client(factory1);
             client1.Run();
 
             // Abstract factory #2
 
-            AbstractFactory factory2 = new ConcreteFactory2();
+            AbstractFactoryFastFood factory2 = new ConcreteBurgerKing();
             Client client2 = new Client(factory2);
             client2.Run();
 

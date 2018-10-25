@@ -5,6 +5,26 @@ VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational_Abstract-Factory", "Creational_Abstract-Factory\Creational_Abstract-Factory.csproj", "{376C2A5B-C735-49EF-9334-58FEEB40133C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational_Abstract-Factory_Demo", "Creational_Abstract-Factory_Demo\Creational_Abstract-Factory_Demo.csproj", "{449BC837-419A-4D5C-91E4-E42D0086A336}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational_Abstract-Factory_Project", "Creational_Abstract-Factory_Project\Creational_Abstract-Factory_Project.csproj", "{D7F08AE4-7BF4-4036-9C92-C9F5CF591017}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational_Builder_Demo", "Creational_Builder_Demo\Creational_Builder_Demo.csproj", "{A4681595-0A2E-4CE6-9C2E-7EDDB08987FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational_Builder_Concepts", "Creational_Builder_Concepts\Creational_Builder_Concepts.csproj", "{CAD615C4-11D2-4D53-B368-FA7395DF6267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational_Factory_Concept", "Creational_Factory_Concept\Creational_Factory_Concept.csproj", "{97B8432B-C6B5-44DE-AB5D-8FAEE477B2BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational_Factory_Demo", "Creational_Factory_Demo\Creational_Factory_Demo.csproj", "{5B176674-B78C-446E-B5B9-771833C74F04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational_Factory_Project", "Creational_Factory_Project\Creational_Factory_Project.csproj", "{3A0800C3-8C54-4B30-BB9E-4AC23AA294AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral_Command_Concept", "Behavioral_Command_Concept\Behavioral_Command_Concept.csproj", "{6D378442-2827-46F6-905D-86BEC5CDB16E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral_Command_Concept_Demo", "Behavioral_Command_Concept_Demo\Behavioral_Command_Concept_Demo.csproj", "{BA5ADD42-4F09-4280-B801-CE5BF41EC00A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral_Command_Concept_Vehicle", "Behavioral_Command_Concept_Vehicle\Behavioral_Command_Concept_Vehicle.csproj", "{AE2C8E2E-0EF6-4128-B7F7-655348781FBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +35,46 @@ Global
 		{376C2A5B-C735-49EF-9334-58FEEB40133C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{376C2A5B-C735-49EF-9334-58FEEB40133C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{376C2A5B-C735-49EF-9334-58FEEB40133C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{449BC837-419A-4D5C-91E4-E42D0086A336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{449BC837-419A-4D5C-91E4-E42D0086A336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{449BC837-419A-4D5C-91E4-E42D0086A336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{449BC837-419A-4D5C-91E4-E42D0086A336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7F08AE4-7BF4-4036-9C92-C9F5CF591017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F08AE4-7BF4-4036-9C92-C9F5CF591017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F08AE4-7BF4-4036-9C92-C9F5CF591017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F08AE4-7BF4-4036-9C92-C9F5CF591017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4681595-0A2E-4CE6-9C2E-7EDDB08987FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4681595-0A2E-4CE6-9C2E-7EDDB08987FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4681595-0A2E-4CE6-9C2E-7EDDB08987FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4681595-0A2E-4CE6-9C2E-7EDDB08987FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD615C4-11D2-4D53-B368-FA7395DF6267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD615C4-11D2-4D53-B368-FA7395DF6267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD615C4-11D2-4D53-B368-FA7395DF6267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD615C4-11D2-4D53-B368-FA7395DF6267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B8432B-C6B5-44DE-AB5D-8FAEE477B2BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B8432B-C6B5-44DE-AB5D-8FAEE477B2BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B8432B-C6B5-44DE-AB5D-8FAEE477B2BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B8432B-C6B5-44DE-AB5D-8FAEE477B2BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B176674-B78C-446E-B5B9-771833C74F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B176674-B78C-446E-B5B9-771833C74F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B176674-B78C-446E-B5B9-771833C74F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B176674-B78C-446E-B5B9-771833C74F04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A0800C3-8C54-4B30-BB9E-4AC23AA294AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A0800C3-8C54-4B30-BB9E-4AC23AA294AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A0800C3-8C54-4B30-BB9E-4AC23AA294AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A0800C3-8C54-4B30-BB9E-4AC23AA294AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D378442-2827-46F6-905D-86BEC5CDB16E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D378442-2827-46F6-905D-86BEC5CDB16E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D378442-2827-46F6-905D-86BEC5CDB16E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D378442-2827-46F6-905D-86BEC5CDB16E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA5ADD42-4F09-4280-B801-CE5BF41EC00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA5ADD42-4F09-4280-B801-CE5BF41EC00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA5ADD42-4F09-4280-B801-CE5BF41EC00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA5ADD42-4F09-4280-B801-CE5BF41EC00A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE2C8E2E-0EF6-4128-B7F7-655348781FBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE2C8E2E-0EF6-4128-B7F7-655348781FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE2C8E2E-0EF6-4128-B7F7-655348781FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE2C8E2E-0EF6-4128-B7F7-655348781FBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

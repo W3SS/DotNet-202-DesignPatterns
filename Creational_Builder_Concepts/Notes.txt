@@ -1,0 +1,14 @@
+﻿Good Blog:
+
+https://airbrake.io/blog/design-patterns/builder-method
+
+Notes:
+
+1. Use builder when something is step by step
+
+Pizza analogy -> We can't put the sauce on first....
+
+We’ll keep the pizza analogy going with our code example for this article — maybe we’re planning on 
+developing an online ordering application for that new local pizza joint! In any case, to explore 
+just how the builder method can help us, we must first examine a different, more common design 
+pattern that is often used when working with objects that contain many mutable (changeable) properties.

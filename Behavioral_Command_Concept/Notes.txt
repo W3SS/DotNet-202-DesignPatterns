@@ -1,0 +1,56 @@
+﻿Not to be rude, but I hereby command you to check out today’s 
+article in our ongoing Guide to Software Design Patterns series, 
+in which we dive into the extremely useful command design pattern 
+in all its glory! As another behavioral pattern, the command design 
+pattern makes it easy to add work to a queue, which can be processed 
+by a client at any moment in time. Furthermore, the client need not be 
+aware of the underlying functionality or implementation of the queued work.
+
+In this article we’ll closely examine the command design pattern, 
+exploring a real world example of the pattern in action, along with 
+a fully-functional C# code sample intended to illustrate how the pattern 
+can be used in your own coding endeavors. Let’s get this party started!
+
+
+Command pattern is a data driven design pattern and falls under 
+behavioral pattern category. A request is wrapped under an object 
+as a command and passed to invoker object. 
+Invoker object looks for the appropriate object which can handle 
+this command and passes the command to the corresponding object 
+which executes the command.
+
+Implementation
+We have created an interface Order which is acting as a command. 
+We have created a Stock class which acts as a request. 
+We have concrete command classes BuyStock and SellStock implementing 
+Order interface which will do actual command processing. 
+A class Broker is created which acts as an invoker object. 
+It can take and place orders.
+
+Broker object uses command pattern to identify which object will 
+execute which command based on the type of command. 
+CommandPatternDemo, our demo class, will use Broker class to 
+demonstrate command pattern.
+
+Steps
+
+1. Create an interface.
+2. Create a request class.
+3. Create concrete classes implementing the Order interface.
+4. Create command invoker class.
+5. Use the Broker class to take and execute commands.
+6. Verify the output.
+
+
+Komodo has a hired a third party vendor to help them with their employment
+placement. 
+
+
+
+
+
+
+
+
+
+
